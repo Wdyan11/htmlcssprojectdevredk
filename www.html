@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe's Portfolio</title>
+    <link rel="stylesheet" href="stylewww.css">
+</head>
+<body>
+   <header class="header">
+     <h1 class="header__title">John Doe</h1>
+     <nav class="header__nav-list">
+      <ul class="nav-list">
+        <li><a class="nav-list__link--active" href="#">Home</a></li>
+        <li><a class="nav-list__link" href="#abuot">About Me</a></li>
+        <li><a class="nav-list__link" href="#portfolio">PortFolio</a></li>
+        <li><a class="nav-list__link" href="#contact">Contact</a></li>
+      </ul>
+     </nav>
+   </header>
+   <main class="main">
+    <section class="about" id="about">
+      <h2 class="about__title">About Me</h2>
+      <p class="about__text" >Hello,I'm John Doe,a web devloper passionate about creating beautiful and functional websites.</p>
+      <p class="about__text">I specialize in front-end and back-end web development, and I love tutning ideas into reality.</p>
+
+    </section>
+    <section  class="PortFolio" id="PortFolio">
+      <h2  class="PortFolio__title" >My Portfolio</h2>
+      <div class="Portfolio__cards">
+      <div class="Project" >
+        <img class="Project__image" src="Images/1bfa9247c35767c200ad587968057279.jpg" alt="fluwer">
+        <h3 class="Project__title">Eco-Friebdly Travel App</h3>
+        <p class="Project__description">An app that helps travelers find eco-consciousvaccommodations, activities, and offset their carbon footprint.</p>
+        <button class="Project__button" >View Project</button>
+      </div><br><br>
+       
+        <div  class="Project" >
+        <img  class="Project__image" src="Images/d450784cb6ac7febd039b1c683ba38eb.jpg" alt="fluwer">
+        <h3 class="Project__title" >Virtual Health and Fitness Community</h3>
+        <p class="Project__description">A platform connecting fitness enthusiasts, offering virtual workouts, nutrition advice , and progess tracking.</p>
+        <button class="Project__button" >View Project</button>
+      </div>
+
+        <div class="Project" >
+        <img class="Project__image" src="Images/db89594ebd8d564454f94823c2bfd1c8.jpg" alt="fluwer">
+        <h3 class="Project__title">AI-Powered Personalized Learning Platform</h3>
+        <p class="Project__description">An educational platform that tailors content to individual learning styles , offering interactive lessons and progress tracking.</p>
+        <button class="Project__button" >View Project</button>
+      </div>
+     </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact__title">Contact Me</h2>
+      <form class="contact__form" action="">
+        <label class="contact__label" for="name">Name:</label><br>
+        <input  class="contact__input" type="text" id="name" name="name" required><br><br>
+        <label  class="contact__label" for="email">Email:</label><br>
+        <input  class="contact__input" type="email" id="email" name="email" required><br><br>
+        <label   class="contact__label" for="message">Message:</label><br>
+        <textarea  class="contact__textarea" name="message" id="message" cols="30" ></textarea><br><br>
+        <input  class="contact__submit" type="submit" value="Send Message">
+      </form>
+      
+    </section>
+   </main>
+   <footer class="footer">
+    <p>&copy; John Doe's Portfolio</p>
+   </footer>
+</body>
+</html>
